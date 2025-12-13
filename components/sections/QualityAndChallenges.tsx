@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from '../ui/Section';
-import { ThumbsUp, ThumbsDown, AlertOctagon, Bug, Search, Activity } from 'lucide-react';
+import { AlertOctagon, Bug, Search, Activity } from 'lucide-react';
 
 const QualityAndChallenges: React.FC = () => {
   return (
