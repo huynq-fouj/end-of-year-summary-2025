@@ -64,7 +64,9 @@ const TeamGrid = () => {
                 height: member.size,
                 marginTop: member.marginTop,
                 marginRight: member.marginRight,
-                rotate: member.rotate
+                rotate: member.rotate,
+                willChange: 'transform',
+                backfaceVisibility: 'hidden'
             }}
             className="rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl hover:scale-125 hover:z-20 hover:rotate-0 transition-all duration-300 cursor-pointer border-4 border-white"
           >
